@@ -1,3 +1,3 @@
-Edge-Deployable CNN for Blade Inspection
+# Edge-Deployable CNN for Blade Inspection #
 
 A low-cost, edge-deployable robotic system developed to inspect the interior of offshore wind turbine blades. A retrained CNN (DamageDetectNet50 on ResNet50 backbone) was integrated into the device for real-time detection of internal defects such as cracks, delamination, and lightning scorching. The system achieved 93.6% mAP and 100% accuracy with <20% false positives on a hand-labeled + synthetically augmented dataset. It was constructed using nVidia Jetson Nano hardware and deployed with custom GPIO-interfacing code. The project was developed under two InnovateUK grants in response to a challenge by Siemens Gamesa.
